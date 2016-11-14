@@ -82,5 +82,30 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 }
 
 @media screen and (min-width: 800px) {
-
+  #content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #three,
+  #two,
+  #one {
+    height: 30vw;
+  }
+  
+  #three {
+    order: 3;
+    width: 100vw;
+  }
+  
+  #two {
+    order: 2;
+    width: 100vw;
+  }
+  
+  #one {
+    order: 1;
+    width: 100vw;
+  }
+  
 }
